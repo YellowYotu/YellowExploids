@@ -9,7 +9,6 @@
 
 -- Instances: 33 | Scripts: 3 | Modules: 3
 local G2L = {};
-local ggg1 = ""
 
 -- StarterGui.LALOL Hub Backdoor
 G2L["1"] = Instance.new("ScreenGui", game.Players.LocalPlayer:WaitForChild('CoreGui'):WaitForChild('RobloxGui'));
@@ -1424,7 +1423,7 @@ local function C_20()
 		if lvl==1 then func=print end
 		if lvl==2 then func=error end
 		if lvl==3 then func=warn end
-		func('LALOL Hub Backdoor: '..text)
+		func('Yell00clidd Backdoor: '..text)
 	end
 
 	function runRemote(remote, data, data2)
@@ -1449,7 +1448,7 @@ local function C_20()
 		game:GetService('StarterGui'):SetCore(
 			"SendNotification",
 			{
-				Title = "LALOL Hub Backdoor",
+				Title = "Yell00clidd Backdoor",
 				Duration = 6,
 				Text = text
 			}
