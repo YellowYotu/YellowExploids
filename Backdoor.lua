@@ -12,19 +12,19 @@ local G2L = {};
 
 -- StarterGui.LALOL Hub Backdoor
 G2L["1"] = Instance.new("ScreenGui", game:GetService('CoreGui'):WaitForChild('RobloxGui'));
-G2L["1"]["Name"] = [[LALOL Hub Backdoor]];
+G2L["1"]["Name"] = [[Yell00clidd Backdoor]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 G2L["1"]["ResetOnSpawn"] = false;
 
 -- StarterGui.LALOL Hub Backdoor.Frame
 G2L["2"] = Instance.new("Frame", G2L["1"]);
-G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
 G2L["2"]["Size"] = UDim2.new(0, 482, 0, 276);
 G2L["2"]["Position"] = UDim2.new(0.27320125699043274, 0, 0.3018597960472107, 0);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.UIStroke
 G2L["3"] = Instance.new("UIStroke", G2L["2"]);
-G2L["3"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["3"]["Color"] = Color3.fromRGB(255, 0, 100);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.UIStroke.UIGradient
 G2L["4"] = Instance.new("UIGradient", G2L["3"]);
