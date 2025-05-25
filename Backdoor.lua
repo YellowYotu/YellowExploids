@@ -12,19 +12,19 @@ local G2L = {};
 
 -- StarterGui.LALOL Hub Backdoor
 G2L["1"] = Instance.new("ScreenGui", game:GetService('CoreGui'):WaitForChild('RobloxGui'));
-G2L["1"]["Name"] = [[Yell00clidd Backdoor]];
+G2L["1"]["Name"] = [[LALOL Hub Backdoor]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 G2L["1"]["ResetOnSpawn"] = false;
 
 -- StarterGui.LALOL Hub Backdoor.Frame
 G2L["2"] = Instance.new("Frame", G2L["1"]);
-G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2"]["Size"] = UDim2.new(0, 482, 0, 276);
 G2L["2"]["Position"] = UDim2.new(0.27320125699043274, 0, 0.3018597960472107, 0);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.UIStroke
 G2L["3"] = Instance.new("UIStroke", G2L["2"]);
-G2L["3"]["Color"] = Color3.fromRGB(255, 0, 100);
+G2L["3"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.UIStroke.UIGradient
 G2L["4"] = Instance.new("UIGradient", G2L["3"]);
@@ -51,7 +51,7 @@ G2L["7"]["Name"] = [[Execute]];
 G2L["8"] = Instance.new("TextButton", G2L["7"]);
 G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8"]["TextSize"] = 22;
-G2L["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Light, Enum.FontStyle.Italic);
+G2L["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["8"]["TextColor3"] = Color3.fromRGB(51, 215, 0);
 G2L["8"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["8"]["Name"] = [[Button]];
@@ -1423,7 +1423,7 @@ local script = G2L["20"];
 		if lvl==1 then func=print end
 		if lvl==2 then func=error end
 		if lvl==3 then func=warn end
-		func('Yell00clidd Backdoor: '..text)
+		func('LALOL Hub Backdoor: '..text)
 	end
 	
 	function runRemote(remote, data, data2)
@@ -1448,7 +1448,7 @@ local script = G2L["20"];
 		game:GetService('StarterGui'):SetCore(
 			"SendNotification",
 			{
-				Title = "Yell00clidd Backdoor",
+				Title = "LALOL Hub Backdoor",
 				Duration = 6,
 				Text = text
 			}
